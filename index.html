@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGNUP PAGE</title>
+    <style>
+
+        body{
+            background-color: rgba(5, 17, 14, 0.411);
+            display: grid;
+            place-items: center;
+            height: 100vh;
+            background-image: url(img2.jpg);
+            background-size: contain;
+            background-repeat: repeat;
+            overflow: hidden;
+            
+        }
+
+        .sign{
+            font-size: 700;
+            color: white;
+            margin-left: 30px;
+
+
+        }
+
+        .main{
+            height: 500px;
+            width: 350px;
+            background-color: rgba(20, 19, 19, 0.756);
+
+        }
+
+        
+
+        .rememberme{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: -150px;
+            font-size: larger;
+            color: rgba(255, 255, 255, 0.874);
+            margin-top: -20px;
+            
+        }
+
+        .mail{
+            padding-left: 30px;
+            
+        }
+
+        .Email{
+            margin: 5px;
+            padding-left:10px ;
+            border: 2px solid rgb(227, 220, 220);
+            border-radius: 5px 5px;
+            /* background-color: black; */
+        }
+
+        .Email::placeholder{
+            font-weight: 700;
+            color: rgb(123, 116, 116);
+        }
+
+        .okay1{
+            background-color: red;
+            color: white;
+            font: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            height:33px ;
+            width: 240px;
+            margin: 5px;
+            padding-left:10px ;
+            border: 2px solid black;
+            border-radius: 5px 5px;
+            font-size: large;
+            border-color: white;
+            
+        }
+
+        .okay1:hover{
+            background-color: rgba(255, 0, 0, 0.486);
+        }
+
+        .signin{
+            padding-left: 30px;
+        }
+
+        .okay2{
+            background-color: rgb(232, 65, 65);
+            color: rgb(225, 215, 215);
+            font: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            height:33px ;
+            width: 240px;
+            margin: 5px;
+            padding-left:10px ;
+            border: 2px solid black;
+            border-radius: 5px 5px;
+            font-size: large;
+            border-color: white;
+            padding-top: -10px;
+        }
+
+        .okay3{
+            display: flex;
+            color: white;
+            justify-content: center;
+            align-items: center;
+            margin-left: -80px;
+            margin-top: -16px;
+            
+        }
+
+        .okay4 a{
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: azure;
+        }
+
+
+    </style>
+</head>
+<body>
+    <center>
+    <form action="#" class="main">
+        <div >
+            <h1 class="sign">Sign In</h1>
+        </div>
+        <div class="mail">
+            <input type="text" class="Email" placeholder="Email or Phone number" style="height: 30px; width: 225px;">
+            <input type="text" class="Email" placeholder="Password" style="height: 30px; width: 225px;">
+        </div>
+
+        <div class="signin">
+            <button type="submit" class="okay1"> Sign In </button>
+             <h3 style="color: rgb(216, 213, 225); height: 0rem; display: flex; align-items: center; justify-content: center;">OR</h3> 
+            <button type="submit" class="okay2">Use a sign-in code</button>
+        </div>
+
+        <div class="okay4">
+            <a href="#" >Forget Password?</a>
+        </div>
+
+        <div class="rememberme">
+            <input type="checkbox">
+            <p >Remember me</p>
+        </div>
+
+        <div class="okay3">
+            <p>New to Netflix?</p>
+            <a href="#" style="margin-left: 10px; color: azure;">Sign up now</a>
+        </div>
+    </form>
+</center>
+    
+</body>
+</html>
